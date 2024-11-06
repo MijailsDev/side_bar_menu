@@ -46,6 +46,7 @@
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
 }
+
 body{
     height: 100vh;
     width: 100%;
@@ -140,7 +141,19 @@ body{
     min-width: 50px;
     font-size: 25px;
 }
-
+.boton2{ /* boton de las pagina principal*/
+    width: 60%;
+    height: 45px;
+    margin: 20px 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--color-boton-texto);
+    color: var(--color-boton);
+}
 
 /*---------> Menu Navegacion*/
 .barra-lateral .navegacion{
@@ -284,7 +297,7 @@ body{
 }
 
 main{
-    margin-left: 250px;
+    margin-left: 80px;
     padding: 20px;
     transition: margin-left 0.3s eases ;
 }
@@ -323,15 +336,3 @@ main.min-main{
         margin-left: 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
